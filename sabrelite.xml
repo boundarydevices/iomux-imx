@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<PinMuxDesign xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Chip>i.MX6x</Chip>
+  <Peripheral Name="AUDMUX" IsExcluded="false">
+    <AltMode Name="ALT3" BallNumber="A22" BallName="SD2_DAT0" PowerGroup="SD2" Signal="AUDMUX_AUD4_RXD" IsExcluded="false" />
+    <AltMode Name="ALT3" BallNumber="B22" BallName="SD2_DAT3" PowerGroup="SD2" Signal="AUDMUX_AUD4_TXC" IsExcluded="false" />
+    <AltMode Name="ALT3" BallNumber="A23" BallName="SD2_DAT2" PowerGroup="SD2" Signal="AUDMUX_AUD4_TXD" IsExcluded="false" />
+    <AltMode Name="ALT3" BallNumber="E20" BallName="SD2_DAT1" PowerGroup="SD2" Signal="AUDMUX_AUD4_TXFS" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="CAN1" IsExcluded="false">
+    <AltMode Name="ALT2" BallNumber="W4" BallName="KEY_ROW2" PowerGroup="GPIO" Signal="CAN1_RXCAN" IsExcluded="false" />
+    <AltMode Name="ALT2" BallNumber="W6" BallName="KEY_COL2" PowerGroup="GPIO" Signal="CAN1_TXCAN" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="CCM" IsExcluded="false">
+    <AltMode Name="ALT0" BallNumber="T5" BallName="GPIO_0" PowerGroup="GPIO" Signal="CCM_CLKO" Comment="SGTL5000 - sys_mclk" IsExcluded="false" />
+    <AltMode Name="ALT4" BallNumber="R7" BallName="GPIO_3" PowerGroup="GPIO" Signal="CCM_CLKO2" Comment="J5 - Camera mclk" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="ECSPI1" IsExcluded="false">
+    <AltMode Name="ALT1" BallNumber="F21" BallName="EIM_D17" PowerGroup="WEIM_SEC" Signal="ECSPI1_MISO" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="D24" BallName="EIM_D18" PowerGroup="WEIM_SEC" Signal="ECSPI1_MOSI" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="C25" BallName="EIM_D16" PowerGroup="WEIM_SEC" Signal="ECSPI1_SCLK" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="G21" BallName="EIM_D19" PowerGroup="WEIM_SEC" Signal="ECSPI1_SS1" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="ENET" IsExcluded="false">
+    <AltMode Name="ALT1" BallNumber="V20" BallName="ENET_MDC" PowerGroup="ENET" Signal="ENET_MDC" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="V23" BallName="ENET_MDIO" PowerGroup="ENET" Signal="ENET_MDIO" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="C24" BallName="RGMII_RD0" PowerGroup="RGMII" Signal="ENET_RGMII_RD0" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="B23" BallName="RGMII_RD1" PowerGroup="RGMII" Signal="ENET_RGMII_RD1" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="B24" BallName="RGMII_RD2" PowerGroup="RGMII" Signal="ENET_RGMII_RD2" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="D23" BallName="RGMII_RD3" PowerGroup="RGMII" Signal="ENET_RGMII_RD3" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="D22" BallName="RGMII_RX_CTL" PowerGroup="RGMII" Signal="ENET_RGMII_RX_CTL" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="B25" BallName="RGMII_RXC" PowerGroup="RGMII" Signal="ENET_RGMII_RXC" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="C22" BallName="RGMII_TD0" PowerGroup="RGMII" Signal="ENET_RGMII_TD0" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="F20" BallName="RGMII_TD1" PowerGroup="RGMII" Signal="ENET_RGMII_TD1" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="E21" BallName="RGMII_TD2" PowerGroup="RGMII" Signal="ENET_RGMII_TD2" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="A24" BallName="RGMII_TD3" PowerGroup="RGMII" Signal="ENET_RGMII_TD3" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="C23" BallName="RGMII_TX_CTL" PowerGroup="RGMII" Signal="ENET_RGMII_TX_CTL" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="D21" BallName="RGMII_TXC" PowerGroup="RGMII" Signal="ENET_RGMII_TXC" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="V22" BallName="ENET_REF_CLK" PowerGroup="ENET" Signal="ENET_TX_CLK" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="GPIO1" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="A21" BallName="SD1_DAT0" PowerGroup="SD1" Signal="GPIO1_GPIO[16]" Comment="J5 - Camera GP" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="T1" BallName="GPIO_2" PowerGroup="GPIO" Signal="GPIO1_GPIO[2]" Comment="CAN1_STNDBY" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="W23" BallName="ENET_RX_ER" PowerGroup="ENET" Signal="GPIO1_GPIO[24]" Comment="J9 - Microphone Detect" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="V21" BallName="ENET_TX_EN" PowerGroup="ENET" Signal="GPIO1_GPIO[28]" Comment="RGMII phy interrupt" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="R6" BallName="GPIO_4" PowerGroup="GPIO" Signal="GPIO1_GPIO[4]" Comment="CAN1_EN" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="T3" BallName="GPIO_6" PowerGroup="GPIO" Signal="GPIO1_GPIO[6]" Comment="J5 - Camera GP" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="R3" BallName="GPIO_7" PowerGroup="GPIO" Signal="GPIO1_GPIO[7]" Comment="CAN1_NERR" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="R5" BallName="GPIO_8" PowerGroup="GPIO" Signal="GPIO1_GPIO[8]" Comment="J5 - Camera Reset" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="T2" BallName="GPIO_9" PowerGroup="GPIO" Signal="GPIO1_GPIO[9]" Comment="J7 - Display connector GP" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="GPIO2" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="A18" BallName="NANDF_D0" PowerGroup="NANDF" Signal="GPIO2_GPIO[0]" Comment="J6 - LVSD Display contrast" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="C17" BallName="NANDF_D1" PowerGroup="NANDF" Signal="GPIO2_GPIO[1]" Comment="J14 - Menu Button" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="F24" BallName="EIM_A22" PowerGroup="WEIM_MAIN__0" Signal="GPIO2_GPIO[16]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="H23" BallName="EIM_A21" PowerGroup="WEIM_MAIN__0" Signal="GPIO2_GPIO[17]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="H22" BallName="EIM_A20" PowerGroup="WEIM_MAIN__0" Signal="GPIO2_GPIO[18]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="G25" BallName="EIM_A19" PowerGroup="WEIM_MAIN__0" Signal="GPIO2_GPIO[19]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="F16" BallName="NANDF_D2" PowerGroup="NANDF" Signal="GPIO2_GPIO[2]" Comment="J14 - Back Button" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="J22" BallName="EIM_A18" PowerGroup="WEIM_MAIN__0" Signal="GPIO2_GPIO[20]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="G24" BallName="EIM_A17" PowerGroup="WEIM_MAIN__0" Signal="GPIO2_GPIO[21]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="H25" BallName="EIM_A16" PowerGroup="WEIM_MAIN__0" Signal="GPIO2_GPIO[22]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="K20" BallName="EIM_RW" PowerGroup="WEIM_MAIN__0" Signal="GPIO2_GPIO[26]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="K22" BallName="EIM_LBA" PowerGroup="WEIM_MAIN__0" Signal="GPIO2_GPIO[27]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="K21" BallName="EIM_EB0" PowerGroup="WEIM_MAIN__1" Signal="GPIO2_GPIO[28]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="K23" BallName="EIM_EB1" PowerGroup="WEIM_MAIN__1" Signal="GPIO2_GPIO[29]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="D17" BallName="NANDF_D3" PowerGroup="NANDF" Signal="GPIO2_GPIO[3]" Comment="J14 - Search Button" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="F23" BallName="EIM_EB3" PowerGroup="WEIM_SEC" Signal="GPIO2_GPIO[31]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="A19" BallName="NANDF_D4" PowerGroup="NANDF" Signal="GPIO2_GPIO[4]" Comment="J14 - Home Button" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="B18" BallName="NANDF_D5" PowerGroup="NANDF" Signal="GPIO2_GPIO[5]" Comment="J16 - MIPI GP" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="E17" BallName="NANDF_D6" PowerGroup="NANDF" Signal="GPIO2_GPIO[6]" Comment="J20 - SD4_CD" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="C18" BallName="NANDF_D7" PowerGroup="NANDF" Signal="GPIO2_GPIO[7]" Comment="SD4_WP" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="GPIO3" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="L20" BallName="EIM_DA0" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[0]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="J25" BallName="EIM_DA1" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[1]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="M22" BallName="EIM_DA10" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[10]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="M20" BallName="EIM_DA11" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[11]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="M24" BallName="EIM_DA12" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[12]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="M23" BallName="EIM_DA13" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[13]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="N23" BallName="EIM_DA14" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[14]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="N24" BallName="EIM_DA15" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[15]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="L21" BallName="EIM_DA2" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[2]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="D25" BallName="EIM_D23" PowerGroup="WEIM_SEC" Signal="GPIO3_GPIO[23]" Comment="RGMII reset" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="K24" BallName="EIM_DA3" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[3]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="L22" BallName="EIM_DA4" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[4]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="L23" BallName="EIM_DA5" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[5]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="K25" BallName="EIM_DA6" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[6]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="L25" BallName="EIM_DA7" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[7]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="L24" BallName="EIM_DA8" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[8]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="M21" BallName="EIM_DA9" PowerGroup="WEIM_MAIN__1" Signal="GPIO3_GPIO[9]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="GPIO4" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="P5" BallName="GPIO_19" PowerGroup="GPIO" Signal="GPIO4_GPIO[5]" Comment="J14 - Volume Down" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="GPIO5" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="M25" BallName="EIM_WAIT" PowerGroup="WEIM_MAIN__1" Signal="GPIO5_GPIO[0]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="F25" BallName="EIM_A24" PowerGroup="WEIM_MAIN__0" Signal="GPIO5_GPIO[4]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="GPIO6" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="J21" BallName="EIM_A23" PowerGroup="WEIM_MAIN__0" Signal="GPIO6_GPIO[6]" Comment="J12 - Boot Mode select" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="E15" BallName="NANDF_WP_B" PowerGroup="NANDF" Signal="GPIO6_GPIO[9]" Comment="J16 - MIPI GP" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="GPIO7" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="C13" BallName="SD3_DAT5" PowerGroup="SD_3" Signal="GPIO7_GPIO[0]" Comment="J18 - SD3_CD" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="D13" BallName="SD3_DAT4" PowerGroup="SD_3" Signal="GPIO7_GPIO[1]" Comment="J18 - SD3_WP" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="R1" BallName="GPIO_17" PowerGroup="GPIO" Signal="GPIO7_GPIO[12]" Comment="USB Hub Reset" IsExcluded="false" />
+    <AltMode Name="ALT5" BallNumber="P6" BallName="GPIO_18" PowerGroup="GPIO" Signal="GPIO7_GPIO[13]" Comment="J14 - Volume UP" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="I2C1" IsExcluded="false">
+    <AltMode Name="ALT6" BallNumber="H20" BallName="EIM_D21" PowerGroup="WEIM_SEC" Signal="I2C1_SCL" Comment="SGTL5000" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="G23" BallName="EIM_D28" PowerGroup="WEIM_SEC" Signal="I2C1_SDA" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="I2C2" IsExcluded="false">
+    <AltMode Name="ALT4" BallNumber="U5" BallName="KEY_COL3" PowerGroup="GPIO" Signal="I2C2_SCL" Comment="Camera, MIPI" IsExcluded="false" />
+    <AltMode Name="ALT4" BallNumber="T7" BallName="KEY_ROW3" PowerGroup="GPIO" Signal="I2C2_SDA" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="I2C3" IsExcluded="false">
+    <AltMode Name="ALT6" BallNumber="R4" BallName="GPIO_5" PowerGroup="GPIO" Signal="I2C3_SCL" Comment="J7 - display card" IsExcluded="false" />
+    <AltMode Name="ALT6" BallNumber="R2" BallName="GPIO_16" PowerGroup="GPIO" Signal="I2C3_SDA" Comment="J15 - RGB" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="IPU1" IsExcluded="false">
+    <AltMode Name="ALT0" BallNumber="M1" BallName="CSI0_DAT10" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[10]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M3" BallName="CSI0_DAT11" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[11]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M2" BallName="CSI0_DAT12" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[12]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="L1" BallName="CSI0_DAT13" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[13]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M4" BallName="CSI0_DAT14" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[14]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M5" BallName="CSI0_DAT15" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[15]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="L4" BallName="CSI0_DAT16" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[16]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="L3" BallName="CSI0_DAT17" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[17]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="M6" BallName="CSI0_DAT18" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[18]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="L6" BallName="CSI0_DAT19" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[19]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N6" BallName="CSI0_DAT8" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[8]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N5" BallName="CSI0_DAT9" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_D[9]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="P3" BallName="CSI0_DATA_EN" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_DATA_EN" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="P4" BallName="CSI0_MCLK" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_HSYNC" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="P1" BallName="CSI0_PIXCLK" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_PIXCLK" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N2" BallName="CSI0_VSYNC" PowerGroup="IPU_CSI" Signal="IPU1_CSI0_VSYNC" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N19" BallName="DI0_DISP_CLK" PowerGroup="IPU_LCD" Signal="IPU1_DI0_DISP_CLK" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N21" BallName="DI0_PIN15" PowerGroup="IPU_LCD" Signal="IPU1_DI0_PIN15" Comment="DE" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N25" BallName="DI0_PIN2" PowerGroup="IPU_LCD" Signal="IPU1_DI0_PIN2" Comment="HSync" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="N20" BallName="DI0_PIN3" PowerGroup="IPU_LCD" Signal="IPU1_DI0_PIN3" Comment="VSync" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="P25" BallName="DI0_PIN4" PowerGroup="IPU_LCD" Signal="IPU1_DI0_PIN4" Comment="Contrast" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="P24" BallName="DISP0_DAT0" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[0]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="P22" BallName="DISP0_DAT1" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[1]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="R21" BallName="DISP0_DAT10" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[10]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="T23" BallName="DISP0_DAT11" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[11]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="T24" BallName="DISP0_DAT12" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[12]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="R20" BallName="DISP0_DAT13" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[13]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="U25" BallName="DISP0_DAT14" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[14]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="T22" BallName="DISP0_DAT15" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[15]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="T21" BallName="DISP0_DAT16" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[16]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="U24" BallName="DISP0_DAT17" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[17]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="V25" BallName="DISP0_DAT18" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[18]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="U23" BallName="DISP0_DAT19" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[19]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="P23" BallName="DISP0_DAT2" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[2]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="U22" BallName="DISP0_DAT20" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[20]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="T20" BallName="DISP0_DAT21" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[21]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="V24" BallName="DISP0_DAT22" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[22]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="W24" BallName="DISP0_DAT23" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[23]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="P21" BallName="DISP0_DAT3" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[3]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="P20" BallName="DISP0_DAT4" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[4]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="R25" BallName="DISP0_DAT5" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[5]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="R23" BallName="DISP0_DAT6" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[6]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="R24" BallName="DISP0_DAT7" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[7]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="R22" BallName="DISP0_DAT8" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[8]" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="T25" BallName="DISP0_DAT9" PowerGroup="IPU_LCD" Signal="IPU1_DISP0_DAT[9]" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="LDB" IsExcluded="false">
+    <AltMode Name="ALT0" BallNumber="V3" BallName="LVDS0_CLK_P" PowerGroup="LVDS" Signal="LDB_LVDS0_CLK" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="U1" BallName="LVDS0_TX0_P" PowerGroup="LVDS" Signal="LDB_LVDS0_TX0" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="U3" BallName="LVDS0_TX1_P" PowerGroup="LVDS" Signal="LDB_LVDS0_TX1" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="V1" BallName="LVDS0_TX2_P" PowerGroup="LVDS" Signal="LDB_LVDS0_TX2" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="W1" BallName="LVDS0_TX3_P" PowerGroup="LVDS" Signal="LDB_LVDS0_TX3" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="PWM1" IsExcluded="false">
+    <AltMode Name="ALT3" BallNumber="F18" BallName="SD1_DAT3" PowerGroup="SD1" Signal="PWM1_PWMO" Comment="J15 - RGB GP" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="PWM2" IsExcluded="false">
+    <AltMode Name="ALT3" BallNumber="E19" BallName="SD1_DAT2" PowerGroup="SD1" Signal="PWM2_PWMO" Comment="J7 - GP" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="PWM3" IsExcluded="false">
+    <AltMode Name="ALT2" BallNumber="C20" BallName="SD1_DAT1" PowerGroup="SD1" Signal="PWM3_PWMO" Comment="J16 - MIPI GP" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="PWM4" IsExcluded="false">
+    <AltMode Name="ALT2" BallNumber="B21" BallName="SD1_CMD" PowerGroup="SD1" Signal="PWM4_PWMO" Comment="J6 - LVDS GP" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="UART1" IsExcluded="false">
+    <AltMode Name="ALT1" BallNumber="E13" BallName="SD3_DAT6" PowerGroup="SD_3" Signal="UART1_RXD_MUX" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="F13" BallName="SD3_DAT7" PowerGroup="SD_3" Signal="UART1_TXD_MUX" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="UART2" IsExcluded="false">
+    <AltMode Name="ALT4" BallNumber="E25" BallName="EIM_D27" PowerGroup="WEIM_SEC" Signal="UART2_RXD_MUX" IsExcluded="false" />
+    <AltMode Name="ALT4" BallNumber="E24" BallName="EIM_D26" PowerGroup="WEIM_SEC" Signal="UART2_TXD_MUX" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="USBOH3" IsExcluded="false">
+    <AltMode Name="ALT6" BallNumber="J20" BallName="EIM_D30" PowerGroup="WEIM_SEC" Signal="USBOH3_USBH1_OC" IsExcluded="false" />
+    <AltMode Name="ALT3" BallNumber="T4" BallName="GPIO_1" PowerGroup="GPIO" Signal="USBOH3_USBOTG_ID" IsExcluded="false" />
+    <AltMode Name="ALT2" BallNumber="T6" BallName="KEY_COL4" PowerGroup="GPIO" Signal="USBOH3_USBOTG_OC" IsExcluded="false" />
+    <AltMode Name="ALT4" BallNumber="E23" BallName="EIM_D22" PowerGroup="WEIM_SEC" Signal="USBOH3_USBOTG_PWR" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="USDHC3" IsExcluded="false">
+    <AltMode Name="ALT0" BallNumber="D14" BallName="SD3_CLK" PowerGroup="SD_3" Signal="USDHC3_CLK" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="B13" BallName="SD3_CMD" PowerGroup="SD_3" Signal="USDHC3_CMD" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="E14" BallName="SD3_DAT0" PowerGroup="SD_3" Signal="USDHC3_DAT0" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="F14" BallName="SD3_DAT1" PowerGroup="SD_3" Signal="USDHC3_DAT1" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="A15" BallName="SD3_DAT2" PowerGroup="SD_3" Signal="USDHC3_DAT2" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="B15" BallName="SD3_DAT3" PowerGroup="SD_3" Signal="USDHC3_DAT3" IsExcluded="false" />
+  </Peripheral>
+  <Peripheral Name="USDHC4" IsExcluded="false">
+    <AltMode Name="ALT0" BallNumber="E16" BallName="SD4_CLK" PowerGroup="NANDF" Signal="USDHC4_CLK" IsExcluded="false" />
+    <AltMode Name="ALT0" BallNumber="B17" BallName="SD4_CMD" PowerGroup="NANDF" Signal="USDHC4_CMD" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="D18" BallName="SD4_DAT0" PowerGroup="NANDF" Signal="USDHC4_DAT0" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="B19" BallName="SD4_DAT1" PowerGroup="NANDF" Signal="USDHC4_DAT1" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="F17" BallName="SD4_DAT2" PowerGroup="NANDF" Signal="USDHC4_DAT2" IsExcluded="false" />
+    <AltMode Name="ALT1" BallNumber="A20" BallName="SD4_DAT3" PowerGroup="NANDF" Signal="USDHC4_DAT3" IsExcluded="false" />
+  </Peripheral>
+</PinMuxDesign>
