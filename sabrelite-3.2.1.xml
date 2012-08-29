@@ -620,16 +620,16 @@
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_SD2_DAT0" Value="110768" />
   </SignalDesign>
   <SignalDesign Name="MISO" NativeInstance="ecspi1" Instance="ecspi1" InstanceAlias="ecspi1" IsChecked="true" IsExcluded="false">
-    <AltMode Name="ALT0" BallNumber="U7" BallName="KEY_COL1" PowerGroup="NVCC_GPIO" Instance="ecspi1" Port="MISO" InputSelectRegister="IOMUXC_ECSPI1_IPP_IND_MISO_SELECT_INPUT" IsLocked="false" />
-    <Register Name="IOMUXC_SW_MUX_CTL_PAD_KEY_COL1" Value="0" />
+    <AltMode Name="ALT1" BallNumber="F21" BallName="EIM_D17" PowerGroup="NVCC_EIM0" Instance="ecspi1" Port="MISO" InputSelectRegister="IOMUXC_ECSPI1_IPP_IND_MISO_SELECT_INPUT" IsLocked="false" />
+    <Register Name="IOMUXC_SW_MUX_CTL_PAD_EIM_D17" Value="1" />
     <Register Name="IOMUXC_ECSPI1_IPP_IND_MISO_SELECT_INPUT" Value="0" />
-    <Register Name="IOMUXC_SW_PAD_CTL_PAD_KEY_COL1" Value="110768" />
+    <Register Name="IOMUXC_SW_PAD_CTL_PAD_EIM_D17" Value="110768" />
   </SignalDesign>
   <SignalDesign Name="MOSI" NativeInstance="ecspi1" Instance="ecspi1" InstanceAlias="ecspi1" IsChecked="true" IsExcluded="false">
-    <AltMode Name="ALT0" BallNumber="V6" BallName="KEY_ROW0" PowerGroup="NVCC_GPIO" Instance="ecspi1" Port="MOSI" InputSelectRegister="IOMUXC_ECSPI1_IPP_IND_MOSI_SELECT_INPUT" IsLocked="false" />
-    <Register Name="IOMUXC_SW_MUX_CTL_PAD_KEY_ROW0" Value="0" />
+    <AltMode Name="ALT1" BallNumber="D24" BallName="EIM_D18" PowerGroup="NVCC_EIM0" Instance="ecspi1" Port="MOSI" InputSelectRegister="IOMUXC_ECSPI1_IPP_IND_MOSI_SELECT_INPUT" IsLocked="false" />
+    <Register Name="IOMUXC_SW_MUX_CTL_PAD_EIM_D18" Value="1" />
     <Register Name="IOMUXC_ECSPI1_IPP_IND_MOSI_SELECT_INPUT" Value="0" />
-    <Register Name="IOMUXC_SW_PAD_CTL_PAD_KEY_ROW0" Value="110768" />
+    <Register Name="IOMUXC_SW_PAD_CTL_PAD_EIM_D18" Value="110768" />
   </SignalDesign>
   <SignalDesign Name="RDY" NativeInstance="ecspi1" Instance="ecspi1" InstanceAlias="ecspi1" IsChecked="false" IsExcluded="false">
     <AltMode Name="ALT4" BallNumber="P5" BallName="GPIO_19" PowerGroup="NVCC_GPIO" Instance="ecspi1" Port="RDY" IsLocked="false" />
@@ -637,18 +637,18 @@
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO_19" Value="110768" />
   </SignalDesign>
   <SignalDesign Name="SCLK" NativeInstance="ecspi1" Instance="ecspi1" InstanceAlias="ecspi1" IsChecked="true" IsExcluded="false">
-    <AltMode Name="ALT0" BallNumber="W5" BallName="KEY_COL0" PowerGroup="NVCC_GPIO" Instance="ecspi1" Port="SCLK" InputSelectRegister="IOMUXC_ECSPI1_IPP_CSPI_CLK_IN_SELECT_INPUT" IsLocked="false" />
-    <Register Name="IOMUXC_SW_MUX_CTL_PAD_KEY_COL0" Value="0" />
+    <AltMode Name="ALT1" BallNumber="C25" BallName="EIM_D16" PowerGroup="NVCC_EIM0" Instance="ecspi1" Port="SCLK" InputSelectRegister="IOMUXC_ECSPI1_IPP_CSPI_CLK_IN_SELECT_INPUT" IsLocked="false" />
+    <Register Name="IOMUXC_SW_MUX_CTL_PAD_EIM_D16" Value="1" />
     <Register Name="IOMUXC_ECSPI1_IPP_CSPI_CLK_IN_SELECT_INPUT" Value="0" />
-    <Register Name="IOMUXC_SW_PAD_CTL_PAD_KEY_COL0" Value="110768" />
+    <Register Name="IOMUXC_SW_PAD_CTL_PAD_EIM_D16" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="SS0" NativeInstance="ecspi1" Instance="ecspi1" InstanceAlias="ecspi1" IsChecked="true" IsExcluded="false">
+  <SignalDesign Name="SS0" NativeInstance="ecspi1" Instance="ecspi1" InstanceAlias="ecspi1" IsChecked="false" IsExcluded="false">
     <AltMode Name="ALT0" BallNumber="U6" BallName="KEY_ROW1" PowerGroup="NVCC_GPIO" Instance="ecspi1" Port="SS0" InputSelectRegister="IOMUXC_ECSPI1_IPP_IND_SS_B_0_SELECT_INPUT" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_KEY_ROW1" Value="0" />
     <Register Name="IOMUXC_ECSPI1_IPP_IND_SS_B_0_SELECT_INPUT" Value="0" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_KEY_ROW1" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="SS1" NativeInstance="ecspi1" Instance="ecspi1" InstanceAlias="ecspi1" IsChecked="false" IsExcluded="false">
+  <SignalDesign Name="SS1" NativeInstance="ecspi1" Instance="ecspi1" InstanceAlias="ecspi1" IsChecked="true" IsExcluded="false">
     <AltMode Name="ALT1" BallNumber="G21" BallName="EIM_D19" PowerGroup="NVCC_EIM0" Instance="ecspi1" Port="SS1" InputSelectRegister="IOMUXC_ECSPI1_IPP_IND_SS_B_1_SELECT_INPUT" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_EIM_D19" Value="1" />
     <Register Name="IOMUXC_ECSPI1_IPP_IND_SS_B_1_SELECT_INPUT" Value="0" />
@@ -1050,7 +1050,7 @@
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_KEY_ROW0" Value="1" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_KEY_ROW0" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="TX_CLK" NativeInstance="enet" Instance="enet" InstanceAlias="enet" IsChecked="false" IsExcluded="false">
+  <SignalDesign Name="TX_CLK" NativeInstance="enet" Instance="enet" InstanceAlias="enet" IsChecked="true" IsExcluded="false">
     <AltMode Name="ALT1" BallNumber="V22" BallName="ENET_REF_CLK" PowerGroup="NVCC_ENET" Instance="enet" Port="TX_CLK" Comment="" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_ENET_REF_CLK" Value="1" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_ENET_REF_CLK" Value="110768" />
@@ -1152,8 +1152,8 @@
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_GPIO_0" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO_0" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="GPIO[1]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="false" IsExcluded="false">
-    <AltMode Name="ALT5" BallNumber="T4" BallName="GPIO_1" PowerGroup="NVCC_GPIO" Instance="gpio1" Port="GPIO[1]" Comment="" IsLocked="false" />
+  <SignalDesign Name="GPIO[1]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="T4" BallName="GPIO_1" PowerGroup="NVCC_GPIO" Instance="gpio1" Port="GPIO[1]" Comment="USBOTG_ID pin" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_GPIO_1" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO_1" Value="110768" />
   </SignalDesign>
@@ -1207,8 +1207,8 @@
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_SD1_DAT2" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_SD1_DAT2" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="GPIO[2]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="false" IsExcluded="false">
-    <AltMode Name="ALT5" BallNumber="T1" BallName="GPIO_2" PowerGroup="NVCC_GPIO" Instance="gpio1" Port="GPIO[2]" Comment="" IsLocked="false" />
+  <SignalDesign Name="GPIO[2]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="T1" BallName="GPIO_2" PowerGroup="NVCC_GPIO" Instance="gpio1" Port="GPIO[2]" Comment="CAN1_STNDBY" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_GPIO_2" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO_2" Value="110768" />
   </SignalDesign>
@@ -1227,7 +1227,7 @@
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_ENET_MDIO" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_ENET_MDIO" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="GPIO[23]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true" IsExcluded="false">
+  <SignalDesign Name="GPIO[23]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="false" IsExcluded="false">
     <AltMode Name="ALT5" BallNumber="V22" BallName="ENET_REF_CLK" PowerGroup="NVCC_ENET" Instance="gpio1" Port="GPIO[23]" Comment="GRMII interrupt" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_ENET_REF_CLK" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_ENET_REF_CLK" Value="110768" />
@@ -1237,23 +1237,23 @@
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_ENET_RX_ER" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_ENET_RX_ER" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="GPIO[25]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true" IsExcluded="false">
+  <SignalDesign Name="GPIO[25]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="false" IsExcluded="false">
     <AltMode Name="ALT5" BallNumber="U21" BallName="ENET_CRS_DV" PowerGroup="NVCC_ENET" Instance="gpio1" Port="GPIO[25]" Comment="CAN1 STNDBY" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_ENET_CRS_DV" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_ENET_CRS_DV" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="GPIO[26]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true" IsExcluded="false">
+  <SignalDesign Name="GPIO[26]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="false" IsExcluded="false">
     <AltMode Name="ALT5" BallNumber="W22" BallName="ENET_RXD1" PowerGroup="NVCC_ENET" Instance="gpio1" Port="GPIO[26]" Comment="CAN1 NERR" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_ENET_RXD1" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_ENET_RXD1" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="GPIO[27]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true" IsExcluded="false">
+  <SignalDesign Name="GPIO[27]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="false" IsExcluded="false">
     <AltMode Name="ALT5" BallNumber="W21" BallName="ENET_RXD0" PowerGroup="NVCC_ENET" Instance="gpio1" Port="GPIO[27]" Comment="CAN1 Enable" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_ENET_RXD0" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_ENET_RXD0" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="GPIO[28]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="false" IsExcluded="false">
-    <AltMode Name="ALT5" BallNumber="V21" BallName="ENET_TX_EN" PowerGroup="NVCC_ENET" Instance="gpio1" Port="GPIO[28]" Comment="" IsLocked="false" />
+  <SignalDesign Name="GPIO[28]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="V21" BallName="ENET_TX_EN" PowerGroup="NVCC_ENET" Instance="gpio1" Port="GPIO[28]" Comment="RGMII phy interrupt" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_ENET_TX_EN" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_ENET_TX_EN" Value="110768" />
   </SignalDesign>
@@ -1277,8 +1277,8 @@
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_ENET_MDC" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_ENET_MDC" Value="110768" />
   </SignalDesign>
-  <SignalDesign Name="GPIO[4]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="false" IsExcluded="false">
-    <AltMode Name="ALT5" BallNumber="R6" BallName="GPIO_4" PowerGroup="NVCC_GPIO" Instance="gpio1" Port="GPIO[4]" IsLocked="false" />
+  <SignalDesign Name="GPIO[4]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true" IsExcluded="false">
+    <AltMode Name="ALT5" BallNumber="R6" BallName="GPIO_4" PowerGroup="NVCC_GPIO" Instance="gpio1" Port="GPIO[4]" Comment="CAN1_EN" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_GPIO_4" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO_4" Value="110768" />
   </SignalDesign>
@@ -1293,7 +1293,7 @@
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO_6" Value="110768" />
   </SignalDesign>
   <SignalDesign Name="GPIO[7]" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true" IsExcluded="false">
-    <AltMode Name="ALT5" BallNumber="R3" BallName="GPIO_7" PowerGroup="NVCC_GPIO" Instance="gpio1" Port="GPIO[7]" Comment="J7 - Display Connector GP" IsLocked="false" />
+    <AltMode Name="ALT5" BallNumber="R3" BallName="GPIO_7" PowerGroup="NVCC_GPIO" Instance="gpio1" Port="GPIO[7]" Comment="CAN1_NERR" IsLocked="false" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_GPIO_7" Value="5" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO_7" Value="110768" />
   </SignalDesign>
@@ -4125,195 +4125,643 @@
   </SignalDesign>
   <SignalDesign Name="DRAM_D[0]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AD2" BallName="DRAM_D0" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[0]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL0" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B0DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[1]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AE2" BallName="DRAM_D1" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[1]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL0" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B0DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[10]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AA6" BallName="DRAM_D10" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[10]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL1" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B1DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[11]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AE7" BallName="DRAM_D11" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[11]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL1" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B1DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[12]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB5" BallName="DRAM_D12" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[12]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL1" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B1DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[13]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC5" BallName="DRAM_D13" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[13]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL1" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B1DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[14]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB6" BallName="DRAM_D14" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[14]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL1" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B1DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[15]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC7" BallName="DRAM_D15" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[15]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL1" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B1DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[16]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB7" BallName="DRAM_D16" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[16]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL2" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B2DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[17]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AA8" BallName="DRAM_D17" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[17]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL2" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B2DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[18]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB9" BallName="DRAM_D18" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[18]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL2" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B2DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[19]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y9" BallName="DRAM_D19" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[19]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL2" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B2DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[2]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC4" BallName="DRAM_D2" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[2]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL0" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B0DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[20]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y7" BallName="DRAM_D20" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[20]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL2" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B2DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[21]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y8" BallName="DRAM_D21" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[21]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL2" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B2DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[22]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC8" BallName="DRAM_D22" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[22]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL2" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B2DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[23]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AA9" BallName="DRAM_D23" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[23]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL2" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B2DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[24]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AE9" BallName="DRAM_D24" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[24]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL3" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B3DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[25]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y10" BallName="DRAM_D25" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[25]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL3" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B3DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[26]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AE11" BallName="DRAM_D26" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[26]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL3" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B3DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[27]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB11" BallName="DRAM_D27" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[27]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL3" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B3DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[28]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC9" BallName="DRAM_D28" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[28]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL3" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B3DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[29]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AD9" BallName="DRAM_D29" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[29]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL3" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B3DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[3]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AA5" BallName="DRAM_D3" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[3]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL0" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B0DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[30]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AD11" BallName="DRAM_D30" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[30]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL3" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B3DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[31]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC11" BallName="DRAM_D31" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[31]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL3" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B3DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[32]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AA17" BallName="DRAM_D32" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[32]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL4" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B4DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[33]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AA18" BallName="DRAM_D33" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[33]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL4" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B4DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[34]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC18" BallName="DRAM_D34" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[34]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL4" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B4DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[35]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AE19" BallName="DRAM_D35" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[35]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL4" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B4DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[36]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y17" BallName="DRAM_D36" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[36]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL4" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B4DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[37]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y18" BallName="DRAM_D37" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[37]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL4" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B4DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[38]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB19" BallName="DRAM_D38" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[38]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL4" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B4DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[39]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC19" BallName="DRAM_D39" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[39]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL4" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B4DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[4]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC1" BallName="DRAM_D4" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[4]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL0" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B0DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[40]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y19" BallName="DRAM_D40" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[40]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL5" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B5DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[41]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB20" BallName="DRAM_D41" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[41]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL5" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B5DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[42]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB21" BallName="DRAM_D42" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[42]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL5" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B5DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[43]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AD21" BallName="DRAM_D43" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[43]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL5" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B5DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[44]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y20" BallName="DRAM_D44" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[44]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL5" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B5DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[45]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AA20" BallName="DRAM_D45" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[45]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL5" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B5DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[46]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AE21" BallName="DRAM_D46" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[46]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL5" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B5DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[47]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC21" BallName="DRAM_D47" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[47]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL5" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B5DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[48]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC22" BallName="DRAM_D48" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[48]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL6" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B6DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[49]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AE22" BallName="DRAM_D49" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[49]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL6" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B6DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[5]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AD1" BallName="DRAM_D5" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[5]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL0" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B0DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[50]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AE24" BallName="DRAM_D50" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[50]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL6" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B6DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[51]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC24" BallName="DRAM_D51" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[51]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL6" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B6DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[52]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB22" BallName="DRAM_D52" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[52]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL6" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B6DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[53]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC23" BallName="DRAM_D53" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[53]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL6" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B6DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[54]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AD25" BallName="DRAM_D54" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[54]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL6" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B6DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[55]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC25" BallName="DRAM_D55" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[55]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL6" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B6DS" Value="48" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[56]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB25" BallName="DRAM_D56" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[56]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B7DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL7" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[57]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AA21" BallName="DRAM_D57" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[57]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B7DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL7" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[58]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y25" BallName="DRAM_D58" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[58]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B7DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL7" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[59]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y22" BallName="DRAM_D59" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[59]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B7DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL7" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[6]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB4" BallName="DRAM_D6" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[6]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL0" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B0DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[60]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB23" BallName="DRAM_D60" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[60]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B7DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL7" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[61]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AA23" BallName="DRAM_D61" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[61]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B7DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL7" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[62]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="Y23" BallName="DRAM_D62" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[62]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B7DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL7" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[63]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="W25" BallName="DRAM_D63" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[63]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B7DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL7" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[7]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AE4" BallName="DRAM_D7" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[7]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL0" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B0DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[8]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AD5" BallName="DRAM_D8" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[8]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL1" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B1DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_D[9]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AE5" BallName="DRAM_D9" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_D[9]" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL1" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B1DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_DQM[0]" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AC3" BallName="DRAM_DQM0" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_DQM[0]" InputSelectRegister="" Comment="" IsLocked="false" />
@@ -4525,6 +4973,13 @@
   </SignalDesign>
   <SignalDesign Name="DRAM_SDQS7_B" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AA24" BallName="DRAM_D57" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_SDQS7_B" InputSelectRegister="" Comment="" IsLocked="false" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_B7DS" Value="48" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPKE" Value="4096" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRPK" Value="8192" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRHYS" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDRMODE" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_TERM_CTL7" Value="0" />
+    <Register Name="IOMUXC_SW_PAD_CTL_GRP_DDR_TYPE" Value="524288" />
   </SignalDesign>
   <SignalDesign Name="DRAM_SDWE" NativeInstance="mmdc" Instance="mmdc" InstanceAlias="mmdc" IsChecked="false" IsExcluded="false">
     <AltMode BallNumber="AB16" BallName="DRAM_SDWE" PowerGroup="NVCC_DRAM" Instance="mmdc" Port="DRAM_SDWE" InputSelectRegister="" Comment="" IsLocked="false" />
