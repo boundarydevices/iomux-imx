@@ -200,12 +200,6 @@
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_GPIO04" Address="0x020E022C" Value="0x00000005" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO04" Address="0x020E05FC" Value="0x0001B0B0" />
   </SignalDesign>
-  <SignalDesign Name="GPIO1_IO06" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true">
-    <Comment>J14 pin 8/9 (dry contact)</Comment>
-    <Routing padNet="padNet.GPIO06" mode="GPIO06_ALT5" ball="T3" />
-    <Register Name="IOMUXC_SW_MUX_CTL_PAD_GPIO06" Address="0x020E0234" Value="0x00000005" />
-    <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO06" Address="0x020E0604" Value="0x0001B0B0" />
-  </SignalDesign>
   <SignalDesign Name="GPIO1_IO07" NativeInstance="gpio1" Instance="gpio1" InstanceAlias="gpio1" IsChecked="true">
     <Comment>J46 pin2 - gp (inverted)</Comment>
     <Routing padNet="padNet.GPIO07" mode="GPIO07_ALT5" ball="R3" />
@@ -284,8 +278,14 @@
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_EIM_LBA" Address="0x020E01D4" Value="0x00000005" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_EIM_LBA" Address="0x020E05A4" Value="0x0000B0B1" />
   </SignalDesign>
+  <SignalDesign Name="GPIO3_IO29" NativeInstance="gpio3" Instance="gpio3" InstanceAlias="gpio3" IsChecked="true">
+    <Comment>J14 pin 8/9 (dry contact)</Comment>
+    <Routing padNet="padNet.EIM_DATA29" mode="EIM_DATA29_ALT5" ball="J19" />
+    <Register Name="IOMUXC_SW_MUX_CTL_PAD_EIM_DATA29" Address="0x020E0178" Value="0x00000005" />
+    <Register Name="IOMUXC_SW_PAD_CTL_PAD_EIM_DATA29" Address="0x020E0548" Value="0x0001B0B0" />
+  </SignalDesign>
   <SignalDesign Name="GPIO4_IO05" NativeInstance="gpio4" Instance="gpio4" InstanceAlias="gpio4" IsChecked="true">
-    <Comment>J14 pin7 - VOL-</Comment>
+    <Comment>J14 pin7 - Back Button</Comment>
     <Routing padNet="padNet.GPIO19" mode="GPIO19_ALT5" ball="P5" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_GPIO19" Address="0x020E0220" Value="0x00000005" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO19" Address="0x020E05F0" Value="0x0001B0B0" />
@@ -357,13 +357,13 @@
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_SD3_DATA4" Address="0x020E070C" Value="0x0001B0B0" />
   </SignalDesign>
   <SignalDesign Name="GPIO7_IO12" NativeInstance="gpio7" Instance="gpio7" InstanceAlias="gpio7" IsChecked="true">
-    <Comment>J6 - LVDS gp</Comment>
+    <Comment>J6 - LVDS touch interrupt</Comment>
     <Routing padNet="padNet.GPIO17" mode="GPIO17_ALT5" ball="R1" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_GPIO17" Address="0x020E0218" Value="0x00000005" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO17" Address="0x020E05E8" Value="0x0001B0B0" />
   </SignalDesign>
   <SignalDesign Name="GPIO7_IO13" NativeInstance="gpio7" Instance="gpio7" InstanceAlias="gpio7" IsChecked="true">
-    <Comment>J14 pin5 - VOL+</Comment>
+    <Comment>J14 pin5 - Home button</Comment>
     <Routing padNet="padNet.GPIO18" mode="GPIO18_ALT5" ball="P6" />
     <Register Name="IOMUXC_SW_MUX_CTL_PAD_GPIO18" Address="0x020E021C" Value="0x00000005" />
     <Register Name="IOMUXC_SW_PAD_CTL_PAD_GPIO18" Address="0x020E05EC" Value="0x0001B0B0" />
